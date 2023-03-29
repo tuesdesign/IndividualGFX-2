@@ -56,7 +56,7 @@ Shader "Custom/Outline"
                     float2 offset = TransformViewToProjection(norm.xy);
 
                     o.pos.xy += offset * o.pos.z * _Outline;
-                    o.color = _OutlineColor;
+                    o.color = _OutlineColor * sin(_Time);
                     return o;
                 }
 
