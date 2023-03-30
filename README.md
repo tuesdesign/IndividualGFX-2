@@ -15,3 +15,5 @@ This outline effect is a modified version of the outline shader made in the lect
 ![codeExplain1](https://user-images.githubusercontent.com/64446905/228612822-dc6f1b04-7d6a-4e8e-b050-884c2832d8b3.png)
 
 ![shaderExplain1](https://user-images.githubusercontent.com/64446905/228612846-0cc9927b-7cb2-4a1f-b652-06df99acc0cf.png)
+
+![pixelateExplain1](https://user-images.githubusercontent.com/64446905/228703572-a9c0982b-0ed0-4039-b659-f064552bb94b.png)
