@@ -63,8 +63,8 @@ Shader "Custom/Shadows"
 
                                 fixed4 shadowColor = (1, 0, 0, 1);
                                 float2 _ShadowTexUV = i.uv;
-                                _ShadowTexUV.x *= _ShadowTex_ST.x;
-                                _ShadowTexUV.y *= _ShadowTex_ST.y;
+                                _ShadowTexUV.x *= _ShadowTex_ST.x *= sin(_Time);
+                                _ShadowTexUV.y *= _ShadowTex_ST.y *= sin(_Time);
 
                                 fixed4 finalCol = col * shadow + tex2D(_ShadowTex, _ShadowTexUV) * (1 - shadow);
 
